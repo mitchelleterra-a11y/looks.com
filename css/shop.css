@@ -1,0 +1,52 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.shop-content {
+  display: flex;
+  gap: 20px;
+}
+
+.shop-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.shop {
+  width: 80%;
+  margin: auto;
+}
+
+.shop-title {
+  text-align: center;
+}
+
+.shop-card {
+  position: relative;
+  border: 1px solid transparent;
+}
+
+.card-content {
+  position: absolute;
+  bottom: 0px;
+  color: black;
+  text-align: center;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+  width: 100%;
+
+}
+
+.card-content a{
+    background-color: limegreen;
+    padding: 3px 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.card-content  a::hover{
+    background-color: green;
+}
